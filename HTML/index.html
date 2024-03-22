@@ -5,22 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CoMon 서버 - 메인 페이지</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://leeskyserver.com/assets/logo.png">
-    <link rel="stylesheet" href="./style.css">
-
+    <link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
 
   <img src="https://leeskyserver.com/assets/logo.png" alt="" id="logo">
 
   <ul class="gnb">
-    <li><a href="/htmlclass/index.html">웹페이지 실습</a></li>
-    <li><a href="https://fix.leeskyserver.com/">Fix 페이지</a></li>
-    <li><a href="https://obt.leeskyserver.com/">튜터링 페이지</a></li>
-    <li><a href="https://mail.leeskyserver.com/">메일 서버 관리 페이지</a></li>
+    <li><a href="/htmlclass/index.html">메뉴1</a></li>
+    <li><a href="https://fix.leeskyserver.com/">메뉴2</a></li>
+    <li><a href="https://obt.leeskyserver.com/">메뉴3</a></li>
+    <li><a href="https://mail.leeskyserver.com/">메뉴4</a></li>
   </ul>
   
-  <input type="button" value="로그인" id="login">
-  <input type="button" value="회원가입" id="sign_up">
+
+  <input onClick="location.href='/HTML/login.html'" type="button" value="로그인" id="login">
+  <input onClick="location.href='/HTML/sign_up.html'"type="button" value="회원가입" id="sign_up">
 
 </body>
 </html>

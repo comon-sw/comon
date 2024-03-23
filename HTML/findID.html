@@ -9,16 +9,15 @@
 </head>
 <body>
   <p>아이디 찾기</p>
-
-  <form action="">    <!--action 주소 넣기-->
-    <input type="text" class="find_userID" placeholder="이름"
-      style="width: 68%; margin-top: 8%;">
-    <input type="tel" class="find_userID" placeholder="전화번호"
-      style="margin-bottom: 8%; margin-top: 10%;">
-    <input type="tel" class="find_userID" placeholder="인증번호" style="margin-bottom: 19%;">
-    <button type="button" class="authenIDBtn" style="position: relative; top: -69px;">인증번호 전송</button>
-    <button type="button" class="authenIDBtn" style="position: relative; top: -69px;">확인</button>
-  </form>
+  <div class="find_select">
+    <form action="">    <!--action 주소 넣기-->
+      <input type="text" class="find_user_name" placeholder="이름">
+      <input type="tel" class="find_user_tel" placeholder="전화번호">
+      <input type="tel" class="find_user_authen" placeholder="인증번호">
+      <button type="button" class="authenIDBtn" style="position: relative; top: -69px;">인증번호 전송</button>
+      <button type="button" class="authenIDBtn" style="position: relative; top: -69px;">확인</button>
+    </form>
+  </div>
   <div>
     <input type="submit" id="submitID" value="아이디 찾기">
   </div>

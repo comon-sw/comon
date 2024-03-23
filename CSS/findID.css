@@ -27,6 +27,8 @@ p {
   border: none;
   cursor: pointer;
   margin-left: 5%;
+  position: relative;
+  left: 24%;
 }
 
 .find_select button {
@@ -60,9 +62,4 @@ p {
 .confirm_Btn {
   position: absolute;
   top: 243px;
-}
-
-#submitID {
-  position: relative;
-  left: 24%;
 }

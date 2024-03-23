@@ -16,11 +16,6 @@ p {
   outline: none;
 }
 
-div {
-  position: relative;
-  top: 10%;
-}
-
 #submitID {
   font-size: large;
   font-weight: 1000;
@@ -31,8 +26,7 @@ div {
   height: 45px;
   border: none;
   cursor: pointer;
-  margin-bottom: 10px;
-  margin-left: 29%;
+  margin-left: 5%;
 }
 
 .authenIDBtn {
@@ -42,4 +36,5 @@ div {
   height: 33px;
   width: 23%;
   color: rgb(0, 0, 131);
+  cursor: pointer;
 }

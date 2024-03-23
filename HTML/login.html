@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CoMon 서버 - 로그인 페이지</title>
-
     <link rel="stylesheet" href="/CSS/login.css">
-
+    <script src="../JS/login.js"></script>
 </head>
 <body>
   <div id="box">
@@ -17,7 +16,7 @@
           <input type="password" class="login" placeholder="PASSWORD">
           <input type="submit" id="submit" value="로그인">
 
-          <a href="" class="find" id="findid">아이디 &nbsp;|</a>    <!--a에 링크 달기-->
+          <a href="" class="find" id="findid" onclick="openWindow()">아이디 &nbsp;|</a>    <!--a에 링크 달기-->
           <a href="" class="find" id="findpw">비밀번호 찾기</a>    <!--a에 링크 달기-->
         </form>
       </div>

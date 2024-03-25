@@ -36,10 +36,14 @@ a {
   text-align: center;
 }
 
+.sign_Btn {
+  top: 13%;
+}
+
 #login {
   border: none;
   background-color: transparent;
-  position: fixed;
+  /* position: fixed; */
   margin-top: -6.5%;
   margin-left: 84%;
   color: white;
@@ -49,7 +53,7 @@ a {
 #sign_up {
   border: none;
   background-color: transparent;
-  position: fixed;
+  /* position: fixed; */
   margin-top: -6.5%;
   margin-left: 88%;
   color: white;

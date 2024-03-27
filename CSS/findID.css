@@ -38,6 +38,7 @@ p {
   height: 33px;
   width: 23%;
   color: rgb(0, 0, 131);
+  cursor: pointer;
 }
 
 .find_user_name {

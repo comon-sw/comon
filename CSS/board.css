@@ -1,0 +1,13 @@
+ul {
+  display: inline-block;
+  text-decoration: none;
+  color: rgba(110, 83, 61, 0.637);
+  font-weight: bold;
+  list-style-type: none;
+  font-size: large;
+}
+
+li {
+  margin-top: 5%;
+  display: inline;
+}

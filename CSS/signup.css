@@ -9,20 +9,40 @@ body {
   flex-direction: row;
   justify-content: center;
   background: linear-gradient(90deg, #ffb0e1, #b0dbff);
+  overflow: hidden;
 }
 
 .container {
+  position: relative;
+  top: -25px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 670px;
-  height: 960px;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  height: 923px;
+  margin-top: 28px;
+  margin-bottom: 24px;
   background: #ffffff;
-  border: 1px solid #aacdff;
+  border-bottom: 1px solid #aacdff;
   box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
   border-radius: 20px;
+}
+
+.user_id input{
+  margin-bottom: 0;
+}
+
+.dupExists {
+  position: relative;
+  top: -40px;
+  margin-left: 64%;
+  cursor: pointer;
+  border: 1px solid rgb(0, 0, 131);
+  border-radius: 50px;
+  background-color: white;
+  height: 33px;
+  width: 23%;
+  color: rgb(0, 0, 131);
 }
 
 .member-container {
@@ -33,6 +53,10 @@ body {
   height: 818px;
   margin-top: 72px;
   margin-bottom: 70px;
+}
+
+input:focus {
+  outline: none;
 }
 
 .header {
@@ -48,11 +72,11 @@ body {
 }
 
 .user-info {
-  margin-top: 39px;
+  margin-top: 30px;
 }
 
 .user-info div {
-  margin-top: 21px;
+  margin-top: 15px;
 }
 
 .user-info input {
@@ -67,7 +91,7 @@ body {
 }
 
 .user-info-email input {
-  border-bottom: 1px solid #0068ff;
+  border-bottom: 1px solid #cfcfcf;
 }
 
 .gender {
@@ -75,7 +99,7 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 140px;
-  height: 23.94px;
+  height: 30px;
   margin-top: 50px;
 }
 
@@ -103,27 +127,45 @@ body {
 }
 
 .btn {
+  margin-left: 65px;
+  position: relative;
+  top: -30px;
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top: 25px;
   width: 470px;
   height: 120px;
-  border-top: 1px solid #e6e6e6;
 }
 
-button {
+.signupbutton {
   margin-top: 30px;
-  width: 470px;
+  width: 400px;
   height: 75px;
   font-weight: 400;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 25px;
   text-align: center;
-  color: #0068ff;
-  background: #ffffff;
+  color: #ffffff;
+  background: #4f0c86;
   border: 1px solid #0068ff;
   border-radius: 10px;
   cursor: pointer;
+  background-image: linear-gradient(to right, #7286f5, #2f2d91, #f35ce6, #ffc7f8);
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+  cursor: pointer;
+  background-size: 300% 100%;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.signupbutton:hover {
+  background-position: 100% 0;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 .gender_btn {

@@ -5,22 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CoMon 서버 - 로그인 페이지</title>
     <link rel="stylesheet" href="/CSS/login.css">
-    <script src="../JS/login.js"></script>
 </head>
 <body>
   <div id="box">
     <p>로그인</p>
       <div>
-        <form action="" class="login-form">   <!--action 주소 넣기-->
+        <form action="login.php" method="post" class="login-form">   <!--action 주소 넣기-->
           <input type="text" class="login" placeholder="ID">
           <input type="password" class="login" placeholder="PASSWORD">
           <input type="submit" id="submit" value="로그인">
 
-          <a href="" class="find" id="findid">아이디 &nbsp;|</a>    <!--a에 링크 달기-->
-          <a href="" class="find" id="findpw">비밀번호 찾기</a>    <!--a에 링크 달기-->
+          <input type="button" value="아이디  |" id="findid" class="find" onclick="window.open('/HTML/findID.html','_blank','width=450, height=500, top=170, left=170')">
+          <input type="button" value="비밀번호 찾기" id="findpw" class="find" onclick="window.open('/HTML/findPW.html','_blank','width=450, height=500, top=170, left=170')">
         </form>
       </div>
-    <a href="" id="sign_up_btn">회원가입</a>    <!--a에 링크 달기-->
   </div>
 </body>
 </html>

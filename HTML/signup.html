@@ -14,49 +14,48 @@
       <div class="header">
         <div>회원 가입을 위해 정보를 입력해주세요.</div>
       </div>
-      <div class="user-info">
-        <div class="user_id">
-          <div>* 아이디</div>
-          <input type="text" />
-          <button type="button" class="dupExists">중복 확인</button>
-        </div>
-        <div class="user-info-pw">
-          <div>* 비밀번호</div>
-          <input type="password" />
-        </div>
-        <div class="user-info-pw-check">
-          <div>* 비밀번호 확인</div>
-          <input type="password" />
-        </div>
+      <form action="" method="post">   <!-- action 넣기 -->
         <div class="user-info">
-          <div class="user_birth">
-            <div>* 생년월일</div>
-            <input type="text" />
-          </div>
-        <div class="user-info-name">
-          <div>* 이름</div>
-          <input type="text" />
-        </div>
-        <div class="user-info">
+         <div class="user_id">
+            <div>* 아이디</div>
+            <input type="text">
+           <button type="button" class="dupExists">중복 확인</button>
+         </div>
+         <div class="user-info-pw">
+           <div>* 비밀번호</div>
+           <input type="password">
+         </div>
+         <div class="user-info-pw-check">
+           <div>* 비밀번호 확인</div>
+           <input type="password">
+         </div>
+           <div class="user_birth">
+              <div>* 생년월일</div>
+              <input type="text">
+           </div>
+         <div class="user-info-name">
+           <div>* 이름</div>
+           <input type="text">
+         </div>
           <div class="user-info-email">
             <div>* 이메일</div>
-            <input type="email" />
+            <input type="email">
           </div>
-          <div class="user-info">
-            <div class="user_phone">
-              <div>* 전화번호</div>
-              <input type="tel" />
-            </div>
-      </div>
-      <div class="gender">
-        <input type="radio" name="gender" class="gender_btn">
-        <label for="women">여성</label>
-        <input type="radio" name="gender" class="gender_btn">
-        <label for="men">남성</label>
-      </div>
-      <div class="btn">
-        <button class="signupbutton">가입하기</button>
-      </div>
+          <div class="user_phone">
+            <div>* 전화번호</div>
+            <input type="tel">
+          </div>   
+          <div class="gender">
+            <input type="radio" name="gender" class="gender_btn">
+            <label for="women">여성</label>
+            <input type="radio" name="gender" class="gender_btn">
+            <label for="men">남성</label>
+          </div>
+          <div class="btn">
+            <button class="signupbutton">가입하기</button>
+          </div>
+        </div>
+      </form>
     </div>
   </div>
 </body>

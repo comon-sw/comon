@@ -9,6 +9,7 @@
 </head>
 
 <body>
+  <?php require_once("PHP/header.php"); ?>
   <img src="https://leeskyserver.com/assets/logo.png" alt="" id="logo">
     <ul class="gnb">
       <li><a href="/htmlclass/index.html">웹페이지 실습</a></li>
@@ -17,7 +18,5 @@
       <li><a href="https://mail.leeskyserver.com/">메일 서버 관리 페이지</a></li>
       <li><a href="">게시판</a></li>
     </ul>
-      <input type="button" value="로그인" id="login" onclick ="location.href='https://obt.leeskyserver.com/login_test/HTML/login.html'">
-      <input type="button" value="회원가입" id="sign_up" onclick ="location.href='https://obt.leeskyserver.com/login_test/HTML/signup.html'">
 </body>
 </html>

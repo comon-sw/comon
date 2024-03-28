@@ -21,10 +21,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "SELECT * FROM user_info WHERE user_id = '$username' and user_pw = '$userpass'";                     
     $result = $conn->query($sql);
     if ($result->num_rows > 0) {
-        header("Location: test2.php");
+        header("Location: ../index.html");
         exit; // 이후 코드 실행 방지를 위해 exit 사용
     } else {
-        header("Location: index.php");
+        echo "<script> alert('아이디 혹은 비밀번호가 맞지 않습니다.');
+        location.href='../HTML/login.html'
+        </script>";
         exit;
     }
 }

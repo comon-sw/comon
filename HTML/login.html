@@ -10,13 +10,13 @@
   <div id="box">
     <p>로그인</p>
       <div>
-        <form action="login.php" method="post" class="login-form">   <!--action 주소 넣기-->
-          <input type="text" class="login" placeholder="ID">
-          <input type="password" class="login" placeholder="PASSWORD">
+        <form action="../php_test/login.php" method="post" class="login-form">   <!--action 주소 넣기-->
+          <input type="text" class="login" name="id" placeholder="ID">
+          <input type="password" class="login" name="pw" placeholder="PASSWORD">
           <input type="submit" id="submit" value="로그인">
 
-          <input type="button" value="아이디  |" id="findid" class="find" onclick ="location.href='https://obt.leeskyserver.com/login_test/HTML/findID.html'">
-          <input type="button" value="비밀번호 찾기" id="findpw" class="find" onclick="window.open('/HTML/findPW.html','_blank','width=450, height=500, top=170, left=170')">
+          <input type="button" value="아이디  |" id="findid" class="find" onclick ="location.href='findID.html'">  <!-- 동주 코드 넣기 -->
+          <input type="button" value="비밀번호 찾기" id="findpw" class="find" onclick ="location.href='findPW.html'">  <!-- 동주 코드 넣기 -->
         </form>
       </div>
   </div>

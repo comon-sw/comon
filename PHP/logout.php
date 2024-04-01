@@ -1,8 +1,7 @@
 <?php
-session_start();
-session_destroy();
+    session_start();
+    unset($_SESSION['id']);
+    echo "<script>alert('로그아웃 되었습니다.');
+    location.href='../index.php';
+    </script>";
 ?>
-<script>
-    alert("You've been logged out");
-    location.replace('index.php');
-</script>

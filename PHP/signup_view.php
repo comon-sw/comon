@@ -18,7 +18,7 @@
          <div class="user_id">
             <div>* 아이디</div>
             <input type="text" name="user_id">
-           <button type="button" class="dupExists">중복 확인</button>
+           <input type="submit" class="dupExists" onclick=location.href="checkId()" value="중복 확인"></input>
          </div>
          <div class="user-info-pw">
            <div>* 비밀번호</div>
@@ -51,7 +51,7 @@
             <label for="men">남성</label>
           </div>
           <div class="btn">
-            <input type="submit" class="signupbutton" value="가입하기"></input>
+            <input type="submit" class="signupbutton" value="가입하기"/>
           </div>
         </div>
       </form>

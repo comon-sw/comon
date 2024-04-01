@@ -1,7 +1,4 @@
 <?php
-
-include '../HTML/login.html';
-
 session_start();
 
 $dbhost = "127.0.0.1";
@@ -20,15 +17,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $sql = "SELECT * FROM user_info WHERE user_id = '$username' and user_pw = '$userpass'";                     
     $result = $conn->query($sql);
+
     if ($result->num_rows > 0) {
-        header("Location: ../index.html");
+        $row = $result->fetch_assoc();
+        $_SESSION["id"] = $username;
+        header("Location: ../index.php");
         exit; // 이후 코드 실행 방지를 위해 exit 사용
     } else {
-        echo "<script> alert('아이디 혹은 비밀번호가 맞지 않습니다.');
-        location.href='../HTML/login.html'
+        echo "<script>alert('아이디 혹은 비밀번호가 맞지 않습니다.');
+        location.href='../PHP/login_view.php'
         </script>";
         exit;
     }
+}
+
+$_SESSION['user_id'] = $user_id;
+
+if(isset($_SESSION['user_id'])) {
+    // 사용자가 로그인한 상태라면 이 페이지를 계속 진행합니다.
+} else {
+    // 사용자가 로그인하지 않은 상태라면 로그인 페이지로 리다이렉트합니다.
+    header("Location: login.php");
+    exit;
 }
 
 $conn->close();

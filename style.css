@@ -40,20 +40,52 @@ a {
   border: none;
   background-color: transparent;
   position: fixed;
-  margin-top: -4%;
-  margin-left: 84%;
+  top: 40px;
+  left: 85%;
   color: white;
   cursor: pointer;
+  display: inline-block;
 }
 
 #sign_up {
   border: none;
   background-color: transparent;
   position: fixed;
-  margin-top: -4%;
-  margin-left: 88%;
+  top: 40px;
+  left: 88.5%;
   color: white;
   cursor: pointer;
+  display: inline-block;
+}
+
+#logout {
+  border: none;
+  background-color: transparent;
+  position: fixed;
+  top: 40px;
+  left: 88.5%;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#myPage {
+  border: none;
+  background-color: transparent;
+  position: fixed;
+  top: 40px;
+  left: 84%;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#nim {
+  color: white;
+  position: fixed;
+  top: 2.5%;
+  left: 81%;
+  font-size: medium;
 }
 
 .gnb a {

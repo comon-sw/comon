@@ -53,6 +53,7 @@ body {
   height: 818px;
   margin-top: 72px;
   margin-bottom: 70px;
+  left: 30px;
 }
 
 input:focus {
@@ -138,6 +139,7 @@ input:focus {
 }
 
 .signupbutton {
+  color: white;
   margin-top: 30px;
   width: 400px;
   height: 75px;
@@ -145,7 +147,6 @@ input:focus {
   font-size: 18px;
   line-height: 25px;
   text-align: center;
-  color: #ffffff;
   background: #4f0c86;
   border: 1px solid #0068ff;
   border-radius: 10px;

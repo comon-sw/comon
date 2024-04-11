@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoMon 서버 - 아이디 찾기 페이지</title>
+    <link rel="stylesheet" href="../CSS/findID.css">
+</head>
+<body>
+  <p>아이디 찾기</p>
+  <div class="find_select">
+    <form action="">    <!--action 주소 넣기-->
+      <input type="text" class="find_user_name" placeholder="이름">
+      <input type="tel" class="find_user_tel" placeholder="전화번호">
+      <input type="tel" class="find_user_authen" placeholder="인증번호">
+      <button type="button" class="authen_Btn">인증번호 전송</button>
+      <button type="button" class="confirm_Btn">확인</button>
+      <input type="submit" id="submitID" value="아이디 찾기" onclick="window.open('/HTML/findID_result.html','_blank','width=450, height=500, top=170, left=170')">
+    </form>
+  </div>
+</body>
+</html>

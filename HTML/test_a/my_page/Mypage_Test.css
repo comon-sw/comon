@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    /* 컨테이너를 왼쪽에 정렬 */
+    align-items: center;
+    /* 세로 방향 가운데 정렬 */
+    height: 100vh;
+    /* 높이를 브라우저 높이와 같게 설정 */
+    padding: 50px;
+}
+
+.tab {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tablinks {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+}
+
+.tabcontent {
+    display: none;
+    width: 100%;
+    max-width: 6000px;
+    /*탭 정보 박스 사이즈*/
+    margin-left: 20px;
+    /* 좌측 여백 설정 */
+    padding: 200px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+}
+
+.active {
+    display: block;
+}
+
+
+/* 탭 정보 중앙 정렬 */
+
+.tabcontent h2,
+.tabcontent p,
+.tabcontent ul {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    /* 텍스트를 가운데 정렬 */
+    margin-top: 1px;
+    /* 위쪽 마진 추가 */
+}
+
+.container {
+    margin-top: 5px;
+    /* 원하는 만큼의 위쪽 여백 설정 */
+}
+
+.tab {
+    margin-top: 5px;
+    /* 원하는 만큼의 위쪽 여백 설정 */
+}
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    padding: 50px;
+}
+
+.mypage-title {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.mypage-content {
+    margin-top: 20px; /* 이미지와 다른 내용 간의 간격 조절 */
+}
+
+.mypage-content img {
+    max-width: 100%; /* 이미지가 부모 요소 내에서 최대 크기 유지 */
+    height: auto; /* 가로 세로 비율 유지 */
+}

@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+#logo {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    top : 10px;
+    left : 20px;
+  }
+
+a {
+    text-decoration: none;
+}
+  
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+  }
+  
+.gnb_menu {
+    margin-top : 35px;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+.gnb {
+    text-align: center;
+    background-color: rgb(0,0,0, 0.5);
+    height: 100px;
+  }
+  
+.gnb li {
+      display: inline;
+      margin: 0 20px 0 0;
+  }
+  
+.gnb .gnb_menu {
+    letter-spacing: 0;
+    transition: 0.35s;
+  }
+  
+.gnb .gnb_menu:hover, .gnb .gnb_menu:active {
+    letter-spacing: 5px;
+    transition: 0.35s;
+  }
+  
+.gnb .gnb_menu:after {
+    bottom: -10px;
+  }
+  
+.gnb .gnb_menu:before {
+    top: -10px;
+  }
+  
+.gnb .gnb_menu:after, .gnb .gnb_menu:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0);
+    content: "";
+    margin: 0 auto;
+    display: block;
+    transition: all 280ms ease-in-out;
+    width: 0;
+  }
+  
+.gnb .gnb_menu:hover:after, .gnb .gnb_menu:hover:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-color: #fff;
+    transition: width 350ms ease-in-out;
+    width: 100%;
+  }
+  
+.gnb .gnb_menu:hover:before {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+}
+
+.top {
+    border-top: 10px;
+}
+
+.top div {
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px 0;
+    font-size: 1.4rem;
+}
+
+.middle {
+    margin-top: 40px;
+    border-top: 1px solid #000;
+}
+
+.writer, .date, .count {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+
+.like, .comment {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+
+.writer::before {
+    content: "작성자: ";
+    font-weight: bold;
+}
+
+.date::before {
+    content: "작성일: ";
+    font-weight: bold;
+}
+
+.count::before {
+    content: "조회: ";
+    font-weight: bold;
+}
+
+.bt_wrap a {
+    display: inline-block;
+    min-width: 80px;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.bt_wrap {
+    position: relative;
+    margin-top: 479px;
+    border-top: 1px solid #000;
+    overflow: hidden;
+    text-align: center;
+    font-size: 0;
+    padding-top: 20px;
+}
+
+.bt_wrap a.list_btn {
+    position: relative;
+    text-align: center;
+    border-color: #000;
+    background-color: #000;  
+    bottom: 0;
+    color: #fff;
+}
+
+.bt_wrap a.on {
+    background: white;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 7px;
+    transition: all 0.3s ease 0s;
+}
+.bt_wrap a {
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+}

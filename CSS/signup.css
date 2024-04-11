@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans CJK KR";
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: linear-gradient(90deg, #ffb0e1, #b0dbff);
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+<<<<<<< HEAD
+=======
+  top: -25px;
+>>>>>>> 9fa256d6cb1470e7ad6910c9906f9fcfdfac82c8
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 670px;
+<<<<<<< HEAD
+  height: 850px;
+  margin-top: 20px;
+=======
+  height: 923px;
+  margin-top: 28px;
+  margin-bottom: 24px;
+>>>>>>> 9fa256d6cb1470e7ad6910c9906f9fcfdfac82c8
+  background: #ffffff;
+  border-bottom: 1px solid #aacdff;
+  box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+  border-radius: 20px;
+}
+
+<<<<<<< HEAD
+=======
+.user_id input{
+  margin-bottom: 0;
+}
+
+.dupExists {
+  position: relative;
+  top: -40px;
+  margin-left: 64%;
+  cursor: pointer;
+  border: 1px solid rgb(0, 0, 131);
+  border-radius: 50px;
+  background-color: white;
+  height: 33px;
+  width: 23%;
+  color: rgb(0, 0, 131);
+}
+
+>>>>>>> 9fa256d6cb1470e7ad6910c9906f9fcfdfac82c8
+.member-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 470px;
+  height: 818px;
+  margin-top: 72px;
+  margin-bottom: 70px;
+  left: 30px;
+}
+
+<<<<<<< HEAD
+#check_id {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+=======
+input:focus {
+  outline: none;
+>>>>>>> 9fa256d6cb1470e7ad6910c9906f9fcfdfac82c8
+}
+
+.header {
+  text-align: center;
+  position: relative;
+  top: -2%;
+  width: 600px;
+  height: 30px;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 47px;
+  color: #0068ff;
+}
+
+.user-info {
+  margin-top: 30px;
+}
+
+<<<<<<< HEAD
+.user-info input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+=======
+.user-info div {
+  margin-top: 15px;
+}
+
+.user-info input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+>>>>>>> 9fa256d6cb1470e7ad6910c9906f9fcfdfac82c8
+  color: #000000;
+  border: none;
+  border-bottom: 1px solid #cfcfcf;
+  width: 466px;
+<<<<<<< HEAD
+  margin-top: 15px;
+  margin-bottom: 15px;
+=======
+  margin-top: 21px;
+>>>>>>> 9fa256d6cb1470e7ad6910c9906f9fcfdfac82c8
+}
+
+.user-info-email input {
+  border-bottom: 1px solid #cfcfcf;
+}
+
+<<<<<<< HEAD
+input:focus {
+  outline: none;
+}
+
+=======
+>>>>>>> 9fa256d6cb1470e7ad6910c9906f9fcfdfac82c8
+.gender {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 140px;
+  height: 30px;
+<<<<<<< HEAD
+  margin-bottom: 10px;
+=======
+  margin-top: 50px;
+>>>>>>> 9fa256d6cb1470e7ad6910c9906f9fcfdfac82c8
+}
+
+.gender input {
+  width: 20px;
+  height: 19.95px;
+  background: #ebebeb;
+  border: 1px solid #d2d2d2;
+}
+
+.gender label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+<<<<<<< HEAD
+.signupbutton {
+=======
+.agree-check {
+  width: 454px;
+  height: 21.06px;
+  margin-top: 52.05px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.btn {
+  margin-left: 65px;
+  position: relative;
+  top: -30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  width: 470px;
+  height: 120px;
+}
+
+.signupbutton {
+  color: white;
+>>>>>>> 9fa256d6cb1470e7ad6910c9906f9fcfdfac82c8
+  margin-top: 30px;
+  width: 400px;
+  height: 75px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  background: #4f0c86;
+  border: 1px solid #0068ff;
+  border-radius: 10px;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #7286f5, #2f2d91, #f35ce6, #ffc7f8);
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+  cursor: pointer;
+  background-size: 300% 100%;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+<<<<<<< HEAD
+  margin-right: 20%;
+=======
+>>>>>>> 9fa256d6cb1470e7ad6910c9906f9fcfdfac82c8
+}
+
+.signupbutton:hover {
+  background-position: 100% 0;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+<<<<<<< HEAD
+=======
+.gender_btn {
+ position: relative;
+ top: -11.5px;
+}
+>>>>>>> 9fa256d6cb1470e7ad6910c9906f9fcfdfac82c8

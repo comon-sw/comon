@@ -1,0 +1,50 @@
+h1 {
+  text-align: center;
+  color: rgba(110, 83, 61, 0.637);
+}
+
+.select_board {
+  position: relative;
+  width: 150px;
+}
+
+.header {
+  width: 90%;
+  height: 27px;
+  padding: 2px 6px 2px 6px;
+  font-size: 14px;
+  border: 1px solid #C4C4C4;
+  cursor: pointer;
+  background-color: white;
+  text-align: center;
+}
+
+.select_contents {
+  list-style-type : none;
+  position: absolute;
+  width: 88.5%;
+  top: 15px;
+  border: 1px solid #C4C4C4;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.15);
+  padding: 0;
+  display: none;
+}
+
+.select_contents li {
+  width: 100%;
+  text-align: center;
+}
+
+.select_contents button {
+  margin: 0;
+  width: 90%;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.select_contents li button:hover,
+.select_contents li button:focus {
+  background-color: rgba(223, 170, 126, 0.637);
+}
